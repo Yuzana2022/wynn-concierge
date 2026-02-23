@@ -15,7 +15,7 @@ A hyper-personalized luxury concierge system powered by OpenAI's latest models a
 
 ---
 
-## �🎖️ **Latest Enhancements: Senior Engineer Edition**
+## ��️ **Latest Enhancements: Senior Engineer Edition**
 
 > **Production-Ready Improvements** demonstrating enterprise awareness beyond the demo
 
@@ -31,11 +31,56 @@ A hyper-personalized luxury concierge system powered by OpenAI's latest models a
 
 ---
 
-## 🚀 **For Hiring Managers**
+##  **Next Release: Enterprise Production Standards** 
+
+> **🎯 Planned Enhancements** - Elevating from PoC to production-grade AI infrastructure
+
+The following improvements are **scheduled for the next release** to demonstrate enterprise software engineering standards and advanced AI orchestration capabilities:
+
+### 📦 **Enterprise-Grade Infrastructure**
+| Component | Implementation | Business Value |
+|-----------|---------------|----------------|
+| **🐳 Containerization** | Multi-stage Dockerfiles with security scanning (Trivy) | Zero-friction deployment across dev/staging/prod environments |
+| **⚙️ CI/CD Pipeline** | GitHub Actions YAML with automated testing, linting (ruff/black), and Streamlit Cloud deployment | 10x faster iteration cycles with confidence |
+| **🏗️ Modular OOP Architecture** | Refactor to `services/`, `models/`, `repositories/` pattern with dependency injection | Maintainable, testable code that scales with team growth |
+| **🛡️ Robust Error Handling** | Circuit breakers, graceful degradation, structured logging (structured-logging) | 99.9% uptime even when OpenAI API experiences outages |
+| **🔒 Advanced Guardrails** | NVIDIA NeMo Guardrails + Azure Content Safety API integration | Prevent hallucinations and ensure brand-safe responses |
+
+### 🤖 **LangGraph-Powered Autonomous Agent Workflows**
+| Capability | Technical Implementation | Differentiation |
+|------------|-------------------------|-----------------|
+| **🧠 Multi-Agent Routing** | LangGraph StateGraph with conditional edges for intent classification | Automatically routes complex requests (e.g., "plan a spa day + dinner") to specialized sub-agents |
+| **🔧 Dynamic Tool Calling** | LangGraph ToolNode integration with real-time PMS APIs (availability checks, bookings) | **True agentic behavior** - not just document retrieval, but autonomous action execution |
+| **🔄 Self-Correcting Loops** | LangGraph cycles with human-in-the-loop approval for high-value transactions | Agent validates its own outputs and escalates edge cases to human concierge |
+| **📊 Observable State Machines** | LangGraph Studio visualization + LangSmith tracing | Full transparency into decision-making process for debugging and compliance audits |
+
+**Why LangGraph?** 
+- **Current System:** Sequential RAG pipeline (retrieve → generate → respond)
+- **Next Release:** **Stateful agent workflows** where the AI autonomously decides: *"Should I check availability first? Do I need more guest info? Should I trigger a booking or just recommend?"*
+
+**Real-World Example:**  
+*Guest:* "I want to celebrate my anniversary with champagne and roses"  
+- **LangGraph Agent Flow:**
+  1. **Routing Node**: Classifies as "romantic celebration"
+  2. **Context Gathering**: Checks guest loyalty tier + past preferences
+  3. **Tool Execution**: Calls champagne inventory API + florist booking system
+  4. **Validation Loop**: Confirms dietary restrictions allow alcohol
+  5. **Response Generation**: Creates personalized itinerary with proactive add-ons
+
+**Code Commitment:** Full implementation with `langgraph>=0.2.0` showcasing graph-based orchestration, not just LangChain `create_retrieval_chain()`.
+
+---
+
+**📅 Target Delivery:** Q2 2026  
+**🎯 Goal:** Transform from impressive demo → **deployment-ready enterprise AI system**
+
+---
+
+## �🚀 **For Hiring Managers**
 
 **👉 [5-Minute Evaluation Guide](docs/HIRING_MANAGER.md)** - Quick demo scenarios to test the AI
 
-**📺 LIVE DEMO:** **[https://wynn-concierge.streamlit.app/](https://wynn-concierge.streamlit.app/)** ✨
+**� LIVE DEMO:** **[https://wynn-concierge.streamlit.app/](https://wynn-concierge.streamlit.app/)** ✨
 
 **💡 See it in action:**
 1. Select **Sarah Chen** (Vegetarian guest)
